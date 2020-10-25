@@ -40,7 +40,8 @@ public class ParkingLot implements EntryDisplay{
     private int noOfFloors;
     private int entryPoint;
     private int exitPoint;
-    //
+    
+    //keep track of floors
     ArrayList<Floor> floor=new ArrayList<Floor>();
     void setNoOfFloors(int noOfFloors){
         this.noOfFloors=noOfFloors;
@@ -51,7 +52,7 @@ public class ParkingLot implements EntryDisplay{
     void setExitPoint(int a){
         this.exitPoint=a;
     }
-    //Arraylist to keep the objects of Floor class(the various Floors available in the parking lot)
+    
     ArrayList<Floor> getAllFloor(){
         for(int i=0;i<noOfFloors;i++) {
             Floor a = new Floor();
