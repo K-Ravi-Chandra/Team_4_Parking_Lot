@@ -6,7 +6,13 @@
 -Ravi Chandra
 
 # INSTRUCTIONS TO RUN CODE
-  Input date should not be the last date of month.
+
+  First step is Describing initial state of parkingLot.After that we can independently change attributes of parking lot and manage customers using the operation class
+  (switch statements with descriptions are given)
+  In most cases the input is checked for any abnormalities but in some cases it is not.
+  For example -Input date should not be the last date of month.
+  Customer is not removed from the arraylist -customerlist and hence this object may invoke some unwanted methods.
+  Most of the methods in systems class is coupled along with methods of other modules, so they are not used in main function directly.
   
   
   
