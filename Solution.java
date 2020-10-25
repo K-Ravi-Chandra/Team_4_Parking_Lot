@@ -6,6 +6,7 @@ class Operation{
     ParkingLot lot=ParkingLot.getInstance();
     //overriding method of parent class to execute a method from this class.
     Systems obj1=new Systems();
+    //Ticket list is to keep track of tickets sold
     ArrayList<Ticket> ticketList=new ArrayList<Ticket>();
     ArrayList<Customer> customerList=new ArrayList<Customer>();
     int ClassCall() {
