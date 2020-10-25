@@ -1,4 +1,4 @@
-#Discussion between team members
+////////////////#Discussion between team members and Design Desigins
 
   In first meeting we decided just the outline of the code i.e, number of spots,floor,and which vehicle type should be in each floor and mainly we thougth classes for floor and spots
 
@@ -22,17 +22,13 @@
 
   IN main method(solutions.java) we decided to keep number of floors as adaptable for future changes and given user choice to decide the number of spots and the type of spots and   
   we used array list for customers and tickets to store their details.
-
-
-
-# Design Decisions
+  
+  
   We are desiging the whole ParkingLot from bottom according to user input for number of floors and spots, so that the code is adaptable enough for future references
-  and then we assigned each type that is commpact ,handicaped,truck,electric and motorfcycle and then assigned them respective spots 
+  and then we assigned each type that is commpact ,handicaped,truck,electric and motorfcycle and then assigned them respective spots
 
 
-
-
-# Contribution from each number
+#/////////////// Contribution from each number
 
   In the beginning we discussed as above and made rough layout of the code attaching the required classes and methods without completing the code and then we 
   shared this work among us to implement in completely.
