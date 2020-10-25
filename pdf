@@ -1,14 +1,45 @@
-# Discussion between team members
+#Discussion between team members
+
+  In first meeting we decided just the outline of the code i.e, number of spots,floor,and which vehicle type should be in each floor and mainly we thougth classes for floor and spots
+
+  And in the SECOND MEETING we used interface vehicle and from that we implemented all type of vehicles and overriding the methods  
 
 
+ NEXT we created classes for spots which extends class floor and we tried to set spot types.
+
+  First we decided spots for each floor and spot types using means creating n number of spot   objects from spot class
+
+   AND we discussed that setting spottype is can be easily done by using "ARRAYLIST" and "ENUMS'
+ Because these types are more "writable" easily store types of spots and we can add each member  easily using arraylist.
+
+  WE Checked availability of each spots using bolean methods
+
+  WE added classes like customer,payment ,customer info_portal,Giving ticket
+
+ Taking customer details and passing these values to customer info_portal,payment class using   some methods.
+
+  In systems module we included methods to give ticket and assigning spots and floor and release the spot to available  ,created object for parking lot to keep track of vehicle  
+
+  IN main method(solutions.java) we decided to keep number of floors as adaptable for future changes and given user choice to decide the number of spots and the type of spots and   
+  we used array list for customers and tickets to store their details.
 
 
 
 # Design Decisions
-
+  We are desiging the whole ParkingLot from bottom according to user input for number of floors and spots, so that the code is adaptable enough for future references
+  and then we assigned each type that is commpact ,handicaped,truck,electric and motorfcycle and then assigned them respective spots 
 
 
 
 
 # Contribution from each number
+
+  In the beginning we discussed as above and made rough layout of the code attaching the required classes and methods without completing the code and then we 
+  shared this work among us to implement in completely.
+  We divided our work into parts and shared our work
   
+ -> Githin - Figuring out the layout of code and implementation of main class along with some methods
+ -> Yethin - Completing the methods and classes in ParkingLot class and completing the commenting part
+ -> Pavan -  Filling the classes and methods in System class along with helping in Readme file
+ -> Gautam - Did the Use Case Diagram part and implememtation of methods and classes in Customer class as discussed
+ -> Ravi Chandra - Problem Solving part like the calculation of fee  along with some normal implementation of methods and uploading in GitHub
