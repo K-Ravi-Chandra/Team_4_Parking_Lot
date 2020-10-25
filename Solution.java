@@ -8,7 +8,9 @@ class Operation{
     Systems obj1=new Systems();
     //Ticket list is to keep track of tickets sold
     ArrayList<Ticket> ticketList=new ArrayList<Ticket>();
+    //To keep track of customers
     ArrayList<Customer> customerList=new ArrayList<Customer>();
+    //To choose the functionality
     int ClassCall() {
         System.out.println("Choose One of the Following: \n" +
                 "press 1 for Operation on ParkingLot\n" +
@@ -18,6 +20,7 @@ class Operation{
         return choice;
     }
 
+    //To call the method corresponding to that functionality
     void OpCall() {
         //nested switch case
         switch (choice){
@@ -188,12 +191,18 @@ public class Solution extends Operation {
         ParkingLot lot=ParkingLot.getInstance();
         System.out.print("Enter No Of Floors: ");
         noOfFloors=in.nextInt();
+        //setter method for number of floors
         lot.setNoOfFloors(noOfFloors);
+        
         System.out.print("Enter No Of EntryPoints: ");
         entryPoint=in.nextInt();
+        
+        //setter method for number of number of entrances
         lot.setEntryPoint(entryPoint);
         System.out.print("Enter No Of ExitPoints: ");
         exitPoint=in.nextInt();
+        
+        //setter method for number of number of exit points
         lot.setExitPoint(exitPoint);
         Operation obj=new Operation();
         //Setting Up the initial State of the parking lot.....
